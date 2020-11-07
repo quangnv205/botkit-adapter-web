@@ -1,0 +1,41 @@
+{
+  "name": "botkit-adapter-web",
+  "version": "0.0.2",
+  "description": "Haymary chat bot socket using BotKit web adapter",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node bot.js",
+    "prod": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "botbuilder-adapter-web": "^1.0.9",
+    "botkit": "^0.7.4",
+    "botkit-storage-mongo": "^1.0.7",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.4",
+    "mongoose": "^5.10.11",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.acaziasoft.com/HeyMary/heymary-chatbot-socket.git"
+  },
+  "bugs": {
+    "url": "https://git.acaziasoft.com/HeyMary/heymary-chatbot-socket/issues"
+  },
+  "homepage": "https://git.acaziasoft.com/HeyMary/heymary-chatbot-socket",
+  "keywords": [
+    "bots",
+    "chatbots",
+    "web chat"
+  ],
+  "devDependencies": {},
+  "author": "Quang Nguyen",
+  "license": "MIT"
+}
